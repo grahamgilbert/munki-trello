@@ -98,6 +98,6 @@
 #list=Production
 # Do we automatically stage packages from testing to production
 # that are past their due date
-# Note: you have to set the stage_days time seperately (in the
+# Note: you have to set the stage_days time separately (in the
 # testing section)
 #autostage=0
