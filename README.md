@@ -57,9 +57,9 @@ $ python munki-trello.py --boardid 12345 --key myverylongkey --token myevenlonge
 * ``--makecatalogs``: Optional. The path to ``makecatalogs``. Defaults to ``/usr/local/munki/makecatalogs``.
 * ``--date-format``: Optional. The date format to use when creating dated lists. See strftime(1) for details of the formating options.  Defaults to ``%d/%m/%y``.
 * ``--dev-stage-days``: Optional. Set the due date for autostaging; as packages are added into development, this will set the card due date to the current time plus the about of time given. You will need to seperately turn on staging, which is independent of this option.  Default: 0 (no due date set).
-* ``--stage-test``: Optional. Automatically promote packages with a due date set from the development list into the testing list. Note: there is a seperate option to enable the setting of the due date.  Default: False (no auto promotion to test).
-* ``--test-stage-dates``: Optional. Set the due date for autostaging; as packages are added into test, this will set the card due date to the current time plus the about of time given. You will need to seperately turn on staging, which is independent of this option.  Default: 0 (no due date set).
-* ``--stage-prod``: Optional. Automatically promote packages with a due date set from the testing list into the production list. Note: there is a seperate option to enable the setting of the due date.  Default: False (no auto promotion to test).
+* ``--stage-test``: Optional. Automatically promote packages with a due date set from the development list into the testing list. Note: there is a separate option to enable the setting of the due date.  Default: False (no auto promotion to test).
+* ``--test-stage-dates``: Optional. Set the due date for autostaging; as packages are added into test, this will set the card due date to the current time plus the about of time given. You will need to separately turn on staging, which is independent of this option.  Default: 0 (no due date set).
+* ``--stage-prod``: Optional. Automatically promote packages with a due date set from the testing list into the production list. Note: there is a separate option to enable the setting of the due date.  Default: False (no auto promotion to test).
 
 ## Configuration file
 
