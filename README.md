@@ -45,7 +45,7 @@ $ python munki-trello.py --boardid 12345 --key myverylongkey --token myevenlonge
 * ``--boardid``: Required. The ID of your Trello board.
 * ``--key``: Required. Your Trello API key.
 * ``--token``: Required. Your Trello User Token.
-* ``--config``: Optional. A file to read configuation settings from. 
+* ``--config``: Optional. A file to read configuration settings from.
 * ``--to-dev-list``: Optional. The name of your 'To Development' list. Defaults to ``To Development``.
 * ``--dev-list``: Optional. The name of your 'Development' list. Defaults to ``Development``.
 * ``--to-test-list``: Optional. The name of your 'To Testing' list. Defaults to ``To Testing``.
@@ -63,7 +63,7 @@ $ python munki-trello.py --boardid 12345 --key myverylongkey --token myevenlonge
 
 ## Configuration file
 
-You can give all of the comamand line options in a configuration file,
+You can give all of the command line options in a configuration file,
 which will be read first. The default configuration file
 locations are:
     /etc/munki-trello/munki-trello.cfg

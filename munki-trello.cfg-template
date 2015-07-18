@@ -7,10 +7,10 @@
 # Any value given here can be overwritten on the command line
 #
 # The default configuration file locations are:
-#    /etc/munki-trello/munki-trello.cfg 
-#    ./munki-trello.cfg 
-# You can add an extra config file location by using the --config 
-# command line option. N.B. Configuration files will be processed 
+#    /etc/munki-trello/munki-trello.cfg
+#    ./munki-trello.cfg
+# You can add an extra config file location by using the --config
+# command line option. N.B. Configuration files will be processed
 # *before* command line options
 #
 # This file has 4 sections:
@@ -51,9 +51,9 @@
 # The name of the 'To Development' list in trello
 # Defaults to 'To Development'
 #to_list='To Development'
-# The amount of time in the futre that packages will be auto staged
+# The amount of time in the future that packages will be auto staged
 # to testing.
-# Note: you have to turn on auto-staging seperately (in the testing
+# Note: you have to turn on auto-staging separately (in the testing
 # section)
 #stage_days=0
 
@@ -68,14 +68,14 @@
 # The name of the 'To Testing' list in trello
 # Defaults to 'To Testing'
 #to_list='To Testing'
-# The amount of time in the futre that packages will be auto staged
+# The amount of time in the future that packages will be auto staged
 # to production.
-# Note: you have to turn on auto-staging seperately (in the production
+# Note: you have to turn on auto-staging separately (in the production
 # section)
 #stage_days=0
-# Do we automatically stage packges from developement to testing
-# that are past their due date 
-# Note: you have to set the stage_days time seperately (in the
+# Do we automatically stage packages from development to testing
+# that are past their due date
+# Note: you have to set the stage_days time separately (in the
 # development section)
 #autostage=0
 
@@ -96,8 +96,8 @@
 # Defaults to Production
 # N.B. will only be used if 'suffix' is unset
 #list=Production
-# Do we automatically stage packges from testing to production
-# that are past their due date 
+# Do we automatically stage packages from testing to production
+# that are past their due date
 # Note: you have to set the stage_days time seperately (in the
 # testing section)
 #autostage=0
